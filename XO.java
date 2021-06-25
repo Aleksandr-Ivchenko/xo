@@ -32,7 +32,7 @@ public class XO {
 
     private static void setUpGame() {
         do {
-            System.out.println("Введите размеры поля по дигонали (не меньше 3) : ");
+            System.out.println("Введите размеры поля по дигонали (не меньше 3): ");
             int fieldSize = SCANNER.nextInt();
             fieldSizeX = fieldSize;
             fieldSizeY = fieldSize;
